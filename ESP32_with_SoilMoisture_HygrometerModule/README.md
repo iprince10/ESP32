@@ -12,7 +12,7 @@ This project is a simple soil moisture monitoring system using ESP32. It reads m
 
 ## Components Required
 
-- ESP32-WROOM-32  
+- ESP32
 - Soil Moisture Sensor (AO + DO)  
 - Breadboard  
 - Jumper wires  
