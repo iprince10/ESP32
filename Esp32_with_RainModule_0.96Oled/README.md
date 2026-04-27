@@ -1,6 +1,6 @@
-# ESP32 Rain Detection System (Rain Module + OLED)
+# ESP32 with Rain Module + OLED
 
-This project is a rain detection system using ESP32 and a rain sensor module. It reads rain intensity using analog and digital outputs and displays the result on a 0.96 inch OLED screen.
+This project is using ESP32 and a rain sensor module. It reads rain intensity using analog and digital outputs and displays the result on a 0.96 inch OLED screen.
 
 ## Features
 
