@@ -45,7 +45,7 @@ This project is a temperature monitoring system using ESP32 and DS18B20 sensor. 
 ## Working Image
 
 <p align="left">
-  <img src="" height="600"/>
+  <img src="https://github.com/iprince10/ESP32-Wroom/blob/main/Esp32_with_Ds18b20_0.96Oled/Esp32_DS18B20_0.96Oled.jpeg" height="600"/>
 </p>
 
 ## Owner and Licence
