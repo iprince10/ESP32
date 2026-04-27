@@ -1,46 +1,46 @@
-# ESP32 Soil Moisture Monitoring System
+# ESP32 Temperature Monitoring System (DS18B20 + OLED)
 
-This project is a simple soil moisture monitoring system using ESP32. It reads moisture levels from a soil moisture sensor and displays analog (AO), digital (DO), and wet/dry status on the serial monitor.
+This project is a temperature monitoring system using ESP32 and DS18B20 sensor. It reads temperature data from the DS18B20 sensor and displays the output on a 0.96 inch OLED screen.
 
 ## Features
 
-- Soil moisture detection using analog and digital outputs  
-- Real-time monitoring on serial monitor  
-- Displays AO (moisture level), DO (threshold status), and condition (Wet/Dry)  
+- Temperature measurement using DS18B20 sensor  
+- Digital communication using OneWire protocol  
+- Real-time display on OLED (SSD1306 128x64)  
+- High accuracy temperature readings  
 - Simple and beginner-friendly setup  
-- Useful for smart irrigation systems  
 
 ## Components Required
 
 - ESP32-WROOM-32  
-- Soil Moisture Sensor (AO + DO)  
+- DS18B20 Temperature Sensor  
+- 4.7kΩ Resistor (pull-up)  
+- 0.96" OLED Display (SSD1306, I2C)  
 - Breadboard  
 - Jumper wires  
 - USB cable  
 
 ## Circuit Connections
 
-### Soil Moisture Sensor
-- VCC -> 3.3V / 5V  
-- GND -> GND  
-- AO  -> GPIO34 (Analog input)  
-- DO  -> GPIO35 (Digital input)  
+### DS18B20 Sensor
+- VCC  -> 3.3V  
+- GND  -> GND  
+- DATA -> GPIO4  
+- 4.7kΩ resistor between VCC and DATA  
+
+### OLED Display (SSD1306 I2C)
+- VCC  -> 3.3V  
+- GND  -> GND  
+- SDA  -> GPIO21  
+- SCL  -> GPIO22  
 
 ## Working
 
-- The soil moisture sensor measures the water content in soil.  
-- Analog output (AO) provides a value between 0–4095:
-  - Lower value indicates wet soil  
-  - Higher value indicates dry soil  
-- Digital output (DO) provides threshold-based detection:
-  - LOW indicates wet condition  
-  - HIGH indicates dry condition  
-- The ESP32 reads both AO and DO values.  
-- The system prints:
-  - AO value  
-  - DO status  
-  - Soil condition (Wet/Dry)  
-- Output is continuously displayed on the serial monitor.  
+- The DS18B20 sensor measures temperature using digital OneWire communication.  
+- The ESP32 reads temperature data from the sensor.  
+- A pull-up resistor ensures stable communication on the data line.  
+- The measured temperature is displayed on the OLED screen.  
+- The display updates continuously with real-time values.  
 
 ## Working Image
 
