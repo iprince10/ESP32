@@ -57,10 +57,16 @@ This project is a weather monitoring system using ESP32, BMP280 sensor, and a ra
 - Serial monitor prints temperature, pressure, AO value, DO status, and rain level for debugging.  
 
 ## Working Image
-
-<p align="left">
-  <img src="" height="600"/>
-</p>
+<table align="center">
+  <tr>
+    <td align="left">
+      <img src="https://github.com/iprince10/ESP32-Wroom/raw/main/Esp32_with_Bmp280_RainModule_0.96Oled/Esp32_Bmp280_RainModule_Oled_1.jpeg" height="400"/>
+    </td>
+    <td align="right">
+      <img src="https://github.com/iprince10/ESP32-Wroom/raw/main/Esp32_with_Bmp280_RainModule_0.96Oled/Esp32_Bmp280_RainModule_Oled_2.jpeg" height="400"/>
+    </td>
+  </tr>
+</table>
 
 ## Owner and Licence
 Made by **Prince Jha** . This project is free source and open for all :)
