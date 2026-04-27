@@ -1,4 +1,4 @@
-# ESP32 Weather Station (DHT22 + Rain Sensor + OLED)
+# ESP32 with DHT22 & Rain Sensor & OLED
 
 This project is a simple IoT-based weather station using ESP32. It measures temperature, humidity, and rain intensity, and displays the data on an OLED screen. The system also outputs data to the serial monitor for debugging.
 
