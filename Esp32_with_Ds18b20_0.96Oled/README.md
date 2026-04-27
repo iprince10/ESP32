@@ -1,6 +1,6 @@
-# ESP32 Temperature Monitoring System (DS18B20 + OLED)
+# ESP32 with DS18B20 & OLED
 
-This project is a temperature monitoring system using ESP32 and DS18B20 sensor. It reads temperature data from the DS18B20 sensor and displays the output on a 0.96 inch OLED screen.
+This project is using ESP32 and DS18B20 sensor. It reads temperature data from the DS18B20 sensor and displays the output on a 0.96 inch OLED screen.
 
 ## Features
 
