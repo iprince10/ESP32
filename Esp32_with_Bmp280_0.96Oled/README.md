@@ -1,6 +1,6 @@
-# ESP32 Weather Monitoring System (BMP280 + OLED)
+# ESP32 with BMP280 & OLED
 
-This project is a weather monitoring system using ESP32 and BMP280 sensor. It measures temperature and atmospheric pressure and displays the data on a 0.96 inch OLED screen.
+This project is using ESP32 and BMP280 sensor. It measures temperature and atmospheric pressure and displays the data on a 0.96 inch OLED screen.
 
 ## Features
 
@@ -45,7 +45,7 @@ This project is a weather monitoring system using ESP32 and BMP280 sensor. It me
 ## Working Image
 
 <p align="left">
-  <img src="" height="600"/>
+  <img src="https://github.com/iprince10/ESP32-Wroom/blob/main/Esp32_with_Bmp280_0.96Oled/Esp32_Bmp280_Oled.jpeg" height="600"/>
 </p>
 
 ## Owner and Licence
