@@ -48,10 +48,10 @@ This project is a heart rate monitoring system using ESP32 and MAX30102 sensor. 
 <table align="center">
   <tr>
     <td align="left">
-      <img src="" height="400"/>
+      <img src="https://github.com/iprince10/ESP32-Wroom/blob/main/Esp32_with_Max30102_Oled/Esp32_Max30102_Oled_HeartRate.jpeg" height="400"/>
     </td>
     <td align="right">
-      <img src="" height="400"/>
+      <img src="https://github.com/iprince10/ESP32-Wroom/blob/main/Esp32_with_Max30102_Oled/Esp32_Max30102_Oled_Spo2.jpeg" height="400"/>
     </td>
   </tr>
 </table>
