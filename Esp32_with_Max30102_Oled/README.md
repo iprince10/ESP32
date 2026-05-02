@@ -1,15 +1,15 @@
 # ESP32 with MAX30102 & OLED
 
-This project is a heart rate monitoring system using ESP32 and MAX30102 sensor. It measures pulse rate (BPM) using an optical sensor and displays the output on a 0.96 inch OLED screen. The system also prints readings on the serial monitor for debugging.
+This project is a health monitoring system using ESP32 and MAX30102 sensor. It measures heart rate and SpO2 (blood oxygen level) and displays the data on a 0.96 inch OLED screen.
 
 ## Features
 
-- Heart rate (BPM) measurement using MAX30102  
-- Optical pulse detection using IR sensor  
+- Heart rate measurement using MAX30102  
+- SpO2 (blood oxygen level) measurement  
+- I2C communication with ESP32  
 - Real-time display on OLED (SSD1306 128x64)  
-- Serial monitor output for debugging  
-- Compact and efficient design  
-- Suitable for health monitoring applications  
+- Serial monitor debugging  
+- Compact and real-time monitoring system  
 
 ## Components Required
 
@@ -36,12 +36,11 @@ This project is a heart rate monitoring system using ESP32 and MAX30102 sensor. 
 
 ## Working
 
-- The MAX30102 sensor detects pulse rate using infrared light.  
-- When a finger is placed on the sensor, variations in blood flow are detected.  
-- The ESP32 processes the signal and calculates BPM (beats per minute).  
-- The calculated BPM is displayed on the OLED screen.  
-- Serial monitor prints IR values and BPM for debugging.  
-- If no finger is detected, readings may show zero or unstable values.  
+- The MAX30102 sensor detects heart rate and SpO2 using infrared and red light absorption.  
+- The ESP32 reads sensor data via I2C communication.  
+- The sensor generates both heart rate (BPM) and SpO2 (%) values.  
+- The OLED displays real-time heart rate and oxygen level.  
+- Serial monitor shows detailed readings for debugging and analysis.  
 
 <h2 align="center">Project Images</h2>
 
