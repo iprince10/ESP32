@@ -57,10 +57,10 @@ This project is a health monitoring system using ESP32, MAX30102 sensor, and DS1
 <table align="center">
   <tr>
     <td align="left">
-      <img src="" height="400"/>
+      <img src="https://github.com/iprince10/ESP32-Wroom/blob/main/Esp32_with_Max30102_Ds18b20_Oled/Esp32_Max30102_Ds18b20_Oled1.jpeg" height="400"/>
     </td>
     <td align="right">
-      <img src="" height="400"/>
+      <img src="https://github.com/iprince10/ESP32-Wroom/blob/main/Esp32_with_Max30102_Ds18b20_Oled/Esp32_Max30102_Ds18b20_Oled2.jpeg" height="400"/>
     </td>
   </tr>
 </table>
